@@ -1,0 +1,79 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+}
+
+#title h1 {
+  margin: 0;
+  margin-right: 10px;  /* Add some margin between title and logo */
+}
+
+.logo {
+  width: 40px;  /* Adjust the size of the logo */
+  height: 40px;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.app-main {
+  flex: 1; /* Allow the main content to grow and push the footer to the bottom */
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.data-container {
+  margin-top: 20px;
+}
+
+.app-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjusted padding to make the footer smaller */
+  height: 50px; /* Adjusted height to make the footer smaller */
+}
+
